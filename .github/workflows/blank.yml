@@ -8,5 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout
+        run: git clone https://github.com/gibbets/CIDemo.git
       - name: Make Test
         run: make
