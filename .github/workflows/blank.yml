@@ -15,6 +15,7 @@ jobs:
           cd CIDemo
           make
           ls
-      - name: Run
-        run: ./prog
+          ./prog
+
+        
             
