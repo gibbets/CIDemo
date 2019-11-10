@@ -15,5 +15,5 @@ jobs:
           cd CIDemo
           make
       - name: Run
-        run: ./main.o
+        run: ./prog
             
